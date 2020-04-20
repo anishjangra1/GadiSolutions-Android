@@ -1,10 +1,10 @@
-package com.digi.gadisolutions.ui.notifications
+package com.digi.gadisolutions.ui.tips
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class NotificationsViewModel : ViewModel() {
+class TipsViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
         value = "This is notifications Fragment"
