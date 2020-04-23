@@ -13,23 +13,19 @@
 
     <fragment
         android:id="@+id/navigation_caculate_emi"
-        android:name="com.digi.gadisolutions.ui.emi.CarCompareFragment"
+        android:name="com.digi.gadisolutions.ui.emi.CalculateEmiFragment"
         android:label="@string/title_emi"
         tools:layout="@layout/fragment_calculate_emi" />
 
     <fragment
         android:id="@+id/navigation_compare"
-        android:name="com.digi.gadisolutions.ui.tips.NewsFragment"
+        android:name="com.digi.gadisolutions.ui.car_compare.CarCompareFragment"
         android:label="@string/title_compare"
         tools:layout="@layout/fragment_compare" />
     <fragment
         android:id="@+id/navigation_news"
-        android:name="com.digi.gadisolutions.ui.tips.NewsFragment"
-        android:label="@string/title_compare"
-        tools:layout="@layout/fragment_compare" />
-    <fragment
-        android:id="@+id/navigation_tips"
-        android:name="com.digi.gadisolutions.ui.tips.NewsFragment"
-        android:label="@string/title_tips"
-        tools:layout="@layout/fragment_compare" />
+        android:name="com.digi.gadisolutions.ui.news.NewsFragment"
+        android:label="@string/title_news"
+        tools:layout="@layout/fragment_news" />
+
 </navigation>

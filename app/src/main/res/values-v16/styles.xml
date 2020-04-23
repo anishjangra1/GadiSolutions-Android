@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<style name="CustomTextStyle">
+    <item name="android:textSize">@dimen/text_size</item>
+    <item name="android:fontFamily">@font/franklin_gothic_book_regular</item>
+    <item name="android:textColor">@color/text_color</item>
+</style>
+
+<style name="CustomTextStyleHead">
+
+    <item name="android:textSize">@dimen/title_text_size</item>
+    <item name="android:fontFamily">@font/franklin_gothic_medium</item>
+    <item name="android:textColor">@color/text_color</item>
+</style>
+</resources>

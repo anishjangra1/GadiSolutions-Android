@@ -1,4 +1,4 @@
-package com.digi.gadisolutions.ui.emi
+package com.digi.gadisolutions.ui.car_compare
 
 import android.os.Bundle
 import android.view.LayoutInflater

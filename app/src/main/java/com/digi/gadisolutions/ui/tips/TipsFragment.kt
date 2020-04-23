@@ -12,7 +12,7 @@ import com.digi.gadisolutions.R
 
 class TipsFragment : Fragment() {
 
-    private lateinit var newsViewModel: NewsViewModel
+    private lateinit var newsViewModel: TipsViewModel
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -20,7 +20,7 @@ class TipsFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         newsViewModel =
-            ViewModelProviders.of(this).get(NewsViewModel::class.java)
+            ViewModelProviders.of(this).get(TipsViewModel::class.java)
         val root = inflater.inflate(R.layout.fragment_tips, container, false)
         val textView: TextView = root.findViewById(R.id.text_tips)
         newsViewModel.text.observe(this, Observer {
